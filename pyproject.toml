@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Claude", email = "noreply@anthropic.com" }
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "rich>=14.2.0",
 ]

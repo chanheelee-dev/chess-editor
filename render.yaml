@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chess-editor
+    runtime: python
+    buildCommand: pip install uv && uv sync
+    startCommand: uv run chess-editor-web
+    envVars:
+      - key: PORT
+        value: 10000

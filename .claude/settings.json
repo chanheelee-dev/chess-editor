@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/user/chess-editor/.claude/session-start.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Chess Editor",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "uv sync"
+}
